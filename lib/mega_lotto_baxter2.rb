@@ -1,5 +1,10 @@
 require "mega_lotto_baxter2/version"
 
+begin
+  require 'pry'
+rescue LoadError
+end
+
 module MegaLotto
-  # Your code goes here...
+  binding.pry
 end
