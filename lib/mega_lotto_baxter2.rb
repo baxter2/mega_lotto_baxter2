@@ -6,5 +6,4 @@ rescue LoadError
 end
 
 module MegaLotto
-  binding.pry
 end
