@@ -5,7 +5,7 @@ require "mega_lotto_baxter2/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "mega_lotto_baxter2"
-  spec.version       = MegaLottoBaxter2::VERSION
+  spec.version       = MegaLotto::VERSION
   spec.authors       = ["baxter2"]
   spec.email         = ["baxcallan@gmail.com"]
 
