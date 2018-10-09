@@ -22,7 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+MegaLotto::Drawing.new.draw # => [23, 22, 3, 7, 16]
+```
 
 ## Development
 
