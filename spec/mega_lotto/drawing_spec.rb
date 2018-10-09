@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 module MegaLotto
-  describe Drawing do
+  RSpec.describe Drawing do
     describe "#draw" do
       let(:draw) { MegaLotto::Drawing.new.draw }
  
