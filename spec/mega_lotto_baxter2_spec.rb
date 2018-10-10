@@ -6,6 +6,22 @@ end
 
 
 RSpec.describe MegaLotto do
+  describe ".reset" do
+    before :each do
+      MegaLotto.configure do |config|
+        config.drawing_count = 10
+      end
+    end
+ 
+    it "resets the configuration" do
+      MegaLotto.reset
+
+      config = MegaLotto.configuration
+
+      expect(config.drawing_count).to eq(6)
+    end
+  end
+
   describe "#configure" do
     before do
       MegaLotto.configure do |config|
@@ -18,6 +34,10 @@ RSpec.describe MegaLotto do
  
       expect(draw).to be_a(Array)
       expect(draw.size).to eq(10)
+    end
+   
+    after :each do
+      MegaLotto.reset
     end
   end
 end
