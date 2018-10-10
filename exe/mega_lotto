@@ -1,4 +1,4 @@
-#!/usr/exe/env ruby
+#!/usr/bin/exe/env ruby
 
 require_relative "../lib/mega_lotto/drawing"
 
