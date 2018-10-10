@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mega_lotto_baxter2 (0.2.0)
+    mega_lotto_baxter2 (0.3.0)
 
 GEM
   remote: https://rubygems.org/
