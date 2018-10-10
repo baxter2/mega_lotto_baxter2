@@ -7,4 +7,6 @@ rescue LoadError
 end
 
 module MegaLotto
+  def self.configure
+  end
 end
